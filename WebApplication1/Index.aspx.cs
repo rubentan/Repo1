@@ -13,5 +13,10 @@ namespace WebApplication1
         {
 
         }
+
+        protected void btnSubmit_OnClick(object sender, EventArgs e)
+        {
+            lblMessage.Text = "Nice! " + DateTime.Now;
+        }
     }
 }

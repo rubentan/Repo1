@@ -9,6 +9,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label runat="server" Text="Push the buttom!"></asp:Label> <asp:Button runat="server" id="btnSubmit" Text="Submit!" OnClick="btnSubmit_OnClick"/>
+        
+            <br/>
+            <br/>
+            
+            <asp:Label runat="server" id="lblMessage"></asp:Label>
         </div>
     </form>
 </body>
